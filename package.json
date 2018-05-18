@@ -1,6 +1,6 @@
 {
   "name": "package-starter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Start an npm package.",
   "main": "build/index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "keywords": [
     "init",
-	 "package starter"
+    "package starter"
   ],
   "author": "Just Thomas Hiorth Misund",
   "license": "GPL-3.0",
