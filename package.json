@@ -1,7 +1,7 @@
 {
-  "name": "package-starter",
-  "version": "0.1.2",
-  "description": "Start an npm package.",
+  "name": "get-best-contrast-color",
+  "version": "0.1.0",
+  "description": "Calculate the color in an array of colors that gives the highest contrast to another color.",
   "main": "build/index.js",
   "scripts": {
     "build": "babel src -d build",
@@ -15,15 +15,21 @@
     "url": "git+https://github.com/misund/get-relative-luminance.git"
   },
   "keywords": [
-    "init",
-    "package starter"
+    "color",
+    "contrast",
+    "contrast-ratio",
+    "accessibility",
+    "a11y",
+    "luminance",
+    "relative-luminance",
+    "text-legibility"
   ],
   "author": "Just Thomas Hiorth Misund",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/misund/package-starter/issues"
+    "url": "https://github.com/misund/get-best-contrast-color/issues"
   },
-  "homepage": "https://github.com/misund/package-starter#readme",
+  "homepage": "https://github.com/misund/get-best-contrast-color#readme",
   "devDependencies": {
     "babel-cli": "6.26.0",
     "babel-core": "6.26.3",
@@ -34,5 +40,8 @@
     "eslint-plugin-jsx-a11y": "6.0.3",
     "eslint-plugin-react": "7.8.2",
     "mocha": "5.2.0"
+  },
+  "dependencies": {
+    "get-contrast-ratio": "0.1.3"
   }
 }
