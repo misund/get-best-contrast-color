@@ -4,6 +4,8 @@
 
 `get-best-contrast-color` calculates which color in an array of colors gives the highest contrast to another color.
 
+Doesn't handle transparency as of yet.
+
 ### Installation
 ```sh
 $ npm install get-best-contrast-color
