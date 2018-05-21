@@ -15,8 +15,17 @@ $ npm install get-best-contrast-color
 ```js
 import bestContrast from 'get-best-contrast-color';
 
-bestContrast('palevioletred', ['#222', 'rgb(255, 255, 255)']); // '#222'
-bestContrast('saddlebrown', ['#222', 'rgb(255, 255, 255)']); // 'rgb(255, 255, 255)'
+const background1 = 'palevioletred';
+const background2 = 'saddlebrown';
+
+const colors = [
+  '#222',
+  'blue',
+  'rgb(255, 255, ,255)',
+];
+
+bestContrast(background1, colors); // '#222'
+bestContrast(background2, colors); // 'rgb(255, 255, 255)'
 ```
 
 ### Signature
