@@ -1,6 +1,6 @@
 {
   "name": "get-best-contrast-color",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Calculate the color in an array of colors that gives the highest contrast to another color.",
   "main": "build/index.js",
   "scripts": {
