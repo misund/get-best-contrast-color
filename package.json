@@ -8,6 +8,7 @@
     "lint": "eslint --max-warnings=0 src",
     "mocha": "./node_modules/mocha/bin/mocha --compilers js:babel-core/register",
     "postpublish": "git push --tags",
+    "prepublish": "yarn build && yarn test",
     "test": "yarn lint && yarn mocha"
   },
   "repository": {
