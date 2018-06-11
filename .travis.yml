@@ -13,4 +13,5 @@ before_script:
   - greenkeeper-lockfile-upload
 
 script:
+  - yarn build
   - yarn test
