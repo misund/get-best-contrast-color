@@ -14,6 +14,8 @@ $ npm install get-best-contrast-color
 ### Usage
 ```js
 import bestContrast from 'get-best-contrast-color';
+// If you're not using EMS but CommonJS:
+// const bestContrast = require('get-best-contrast-color').default;
 
 const background1 = 'palevioletred';
 const background2 = 'saddlebrown';
