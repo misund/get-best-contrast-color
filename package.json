@@ -43,6 +43,6 @@
     "mocha": "5.2.0"
   },
   "dependencies": {
-    "get-contrast-ratio": "0.1.3"
+    "get-contrast-ratio": "0.1.4"
   }
 }
