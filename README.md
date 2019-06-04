@@ -6,12 +6,12 @@
 
 Doesn't handle transparency as of yet.
 
-### Installation
+## Installation
 ```sh
 $ npm install get-best-contrast-color
 ```
 
-### Usage
+## Usage
 ```js
 import bestContrast from 'get-best-contrast-color';
 // If you're not using EMS but CommonJS:
@@ -30,5 +30,19 @@ bestContrast(background1, colors); // '#222'
 bestContrast(background2, colors); // 'rgb(255, 255, 255)'
 ```
 
-### Signature
+## Signature
 ```(background: string, colors: array) => string```
+
+## Contributing
+I appreciate your issues and PRs [on Github](https://github.com/misund/get-best-contrast-color)!
+
+### Testing
+```
+yarn build && yarn test
+```
+
+### Releasing
+This project uses [np](https://github.com/sindresorhus/np).
+1. Make sure your changes are in master
+2. Run `yarn release`
+3. Follow the interactive release guide
