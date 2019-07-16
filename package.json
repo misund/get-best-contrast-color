@@ -46,6 +46,6 @@
     "np": "5.0.2"
   },
   "dependencies": {
-    "get-contrast-ratio": "0.2.0"
+    "get-contrast-ratio": "0.2.1"
   }
 }
