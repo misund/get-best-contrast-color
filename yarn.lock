@@ -2056,17 +2056,17 @@ get-caller-file@^2.0.1:
   resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
   integrity sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==
 
-get-contrast-ratio@0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/get-contrast-ratio/-/get-contrast-ratio-0.2.0.tgz#fcac5abf4f44359cf8f53b733dd574ed08f54e31"
-  integrity sha512-DDxjbKHRfCA4awtEhOcaRRNSAu7a2dvwmokg/t+fSNmuxVILUqnaPkB5mItTyzTTcayHRGW68z/od6oY29aWhQ==
+get-contrast-ratio@0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/get-contrast-ratio/-/get-contrast-ratio-0.2.1.tgz#3f8e2a9610df2fb55fc2004bfce002ff0aa25c0a"
+  integrity sha512-lNIpmDIoxlVJsEQ5G/XCxH2YiiXH0ukOZ0ASvPp9ku2f+2AOYG5OXQ9cLgc9p3lNom5gy8JLkfSzi8fZN9LdKg==
   dependencies:
-    get-relative-luminance "0.3.0"
+    get-relative-luminance "0.3.1"
 
-get-relative-luminance@0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/get-relative-luminance/-/get-relative-luminance-0.3.0.tgz#3cb2f74e9044014dde3d049a4f479cc2b8c09bd2"
-  integrity sha512-5lRMk7EPF4hlDl7N0sp0dUAALeAfzIjfYVw0zY2Xoi/wNs3e7sAcyR82cQ/Xd4qJ1gOg8PmNTvW42uvfGv39cQ==
+get-relative-luminance@0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/get-relative-luminance/-/get-relative-luminance-0.3.1.tgz#f86b722194f87f23c9d4df9075e066329001907f"
+  integrity sha512-nLEJhDAPC4anQlFhBxt8lHRwxs5OvOxmN0mHCxOCFDtzy0x5cXTMKNKUycpulsAw1zNOtz6GIRcIaVMcUUcU7Q==
   dependencies:
     parse-color "1.0.0"
 
