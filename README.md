@@ -1,6 +1,6 @@
 # Get best contrast color
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/misund/get-best-contrast-color.svg)](https://greenkeeper.io/)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=misund/get-best-contrast-color)](https://dependabot.com)
 
 `get-best-contrast-color` calculates which color in an array of colors gives the highest contrast to another color.
 
