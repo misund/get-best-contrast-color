@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/misund/get-best-contrast-color#readme",
   "devDependencies": {
-    "@babel/cli": "7.5.5",
+    "@babel/cli": "7.6.2",
     "@babel/core": "7.5.5",
     "@babel/preset-env": "7.5.5",
     "@babel/register": "7.5.5",
