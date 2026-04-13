@@ -1823,12 +1823,12 @@ get-caller-file@^2.0.5:
   resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
   integrity sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==
 
-get-contrast-ratio@1.0.0-1:
-  version "1.0.0-1"
-  resolved "https://registry.yarnpkg.com/get-contrast-ratio/-/get-contrast-ratio-1.0.0-1.tgz#784aa2ff05184c1c5da1b810724e2a72f80268b7"
-  integrity sha512-SUpV4aazQtmGwScljm3eq4XgR7KwpzNG1BAfB0tnaRlRX5omDCmy2JljRtWTEpJe1kh+nb3olJ/ZDKqgb7p/eA==
+get-contrast-ratio@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/get-contrast-ratio/-/get-contrast-ratio-1.0.0.tgz#da1830a3086311ca970d918e06dd29bac7fbda2a"
+  integrity sha512-B3YD1yhluPUcVrMUMJBhoZxrP491j8KYDtMibt5dXzGhuAALPHWw0h7JR/FbYZqtMi7fak+I8d9iVEnALAyyLg==
   dependencies:
-    get-relative-luminance "2.0.0-1"
+    get-relative-luminance "2.0.0"
 
 get-east-asian-width@^1.0.0:
   version "1.4.0"
@@ -1859,10 +1859,10 @@ get-proto@^1.0.1:
     dunder-proto "^1.0.1"
     es-object-atoms "^1.0.0"
 
-get-relative-luminance@2.0.0-1:
-  version "2.0.0-1"
-  resolved "https://registry.yarnpkg.com/get-relative-luminance/-/get-relative-luminance-2.0.0-1.tgz#c278e7bf53d57591cbef4bae474abd197007a3a4"
-  integrity sha512-Zj8gTeSe7DxwOLl/KVT5snpUdQdMcpCJeUQk5G6CClQ6On6+yZl73hDx+peRJgmNJstRxh0fRExdNOY2d4QAcg==
+get-relative-luminance@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/get-relative-luminance/-/get-relative-luminance-2.0.0.tgz#a07915d8a6ff7d24a05bc173a24394fb71306dc2"
+  integrity sha512-rCREt257T2ljgn2k8F85igA1O2SOndiRZEdp4PN+KZJz/DTnGlBtH4LoYwpD7ZP5Dlt73vteGjqqCQrc7xp4hQ==
   dependencies:
     parse-color "1.0.0"
 
