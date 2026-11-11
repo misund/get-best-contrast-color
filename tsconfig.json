@@ -1,13 +1,19 @@
 {
   "compilerOptions": {
-    "target": "ES2022",
-    "module": "ES2022",
-    "moduleResolution": "node",
-    "declaration": true,
     "outDir": "./build",
+    "module": "node20",
+    "moduleResolution": "node16",
+    "target": "esnext",
+		"lib": [
+			"DOM",
+			"ES2024" // Node.js 22
+		],
+    "declaration": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
+		"exactOptionalPropertyTypes": true,
+		"erasableSyntaxOnly": true,
     "skipLibCheck": true
   },
   "include": ["src"],
